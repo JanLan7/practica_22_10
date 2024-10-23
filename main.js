@@ -25,7 +25,7 @@ alert("Este es el contenido teorico de Javascript clase 2 😎");
                alert("let edad = 20;\nlet acceso = (edad >= 18) && (edad <= 30);\nconsole.log(acceso); // true si la edad está entre 18 y 30")
                alert("En el ejemplo anterior, el operador && se utiliza para asegurar que ambas condiciones sobre la variable edad sean verdaderas para permitir el acceso.")
                alert("let temperatura = 35;\nlet advertencia = (temperatura < 0) || (temperatura > 32);\nconsole.log(advertencia); // true si la temperatura es menor que 0 o mayor que 32")
-               alert("")
+               alert("Aquí, el operador || permite generar una advertencia si alguna de las condiciones climáticas es extrema.Conclusión\nEntender los operadores lógicos y de comparación en JavaScript es crucial para manipular el flujo de decisiones en un programa, permitiendo a los desarrolladores escribir código más flexible y robusto. Estos operadores, combinados con estructuras de control, ofrecen una poderosa herramienta para manejar la lógica de las aplicaciones.")
 
                 break;
             case 3:
