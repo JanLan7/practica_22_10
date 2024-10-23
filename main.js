@@ -3,7 +3,7 @@ alert("Este es el contenido teorico de Javascript clase 2 😎");
     let continuar = true;
 
     while (continuar) {
-        let mensaje = Number(prompt("Fundamentos de Javascript\n1. Condicionales y Operadores"));
+        let mensaje = Number(prompt("Fundamentos de Javascript\n1. Condicionales y Operadores\n2.Operadores en Detalle"));
 
         switch (mensaje) {
             case 1:
@@ -13,10 +13,14 @@ alert("Este es el contenido teorico de Javascript clase 2 😎");
                 alert("Uso de else y else if\nPara manejar múltiples condiciones, podemos extender el uso del if con else y else if. El else permite ejecutar un bloque de código cuando la condición del if es falsa. Por ejemplo:\nif (condición) {// Código si la condición es verdadera} else {// Código si la condición es falsa}")
                 alert("Cuando hay múltiples posibles condiciones que queremos evaluar, podemos usar else if para definir condiciones adicionales:\nif (condición1) {// Código si condición1 es verdadera} else if (condición2) {// Código si condición2 es verdadera} else {// Código si ninguna de las condiciones anteriores es verdadera}")
                 alert("Ejemplos Prácticos\nConsideremos un ejemplo simple para determinar si un estudiante aprueba o no un examen:")
-
+                alert("let calificacion = 75;\nif (calificacion >= 90) {console.log('Excelente');} else if (calificacion >= 70) {console.log('Bueno');} else {console.log('Necesitas estudiar más');}")
+                alert("Conclusión\nLos condicionales son herramientas poderosas en JavaScript que ayudan a dirigir el flujo de un programa. Aprendiendo a utilizar adecuadamente if, else, y else if, se puede controlar cómo se ejecuta el código en diferentes circunstancias, haciendo posible la creación de programas más dinámicos y reactivos a las condiciones de entrada.")
                 break;
             case 2:
-               alert("")
+               alert("Operadores Lógicos y de Comparación en JavaScript\nIntroducción\nEn JavaScript, los operadores lógicos y de comparación son herramientas esenciales que permiten evaluar condiciones y comparar valores. Estos operadores son fundamentales para controlar el flujo de ejecución en programas a través de estructuras condicionales como if, else, y bucles como while y for.");
+               alert("Operadores de Comparación\nLos operadores de comparación evalúan dos valores y retornan un valor booleano (true o false) dependiendo de si la comparación es verdadera.");
+               alert("== (Igual): Compara si dos valores son iguales, ignorando el tipo de dato.\njsx console.log(2 == '2'); // true\n=== (Estrictamente igual): Compara si dos valores son iguales y del mismo tipo.\njsx console.log(2 === '2'); // false\n!= (No igual): Compara si dos valores no son iguales, ignorando el tipo de dato.\njsx console.log(2 != '3'); // true\n!== (Estrictamente no igual): Compara si dos valores no son iguales o no son del mismo tipo.\njsx console.log(2 !== '2'); // true\n<, <=, >, >= (Menor que, Menor o igual que, Mayor que, Mayor o igual que): Utilizados para comparaciones numéricas.\njsx console.log(3 < 4); // true console.log(5 >= 5); // true")
+               alert("Operadores Lógicos\nLos operadores lógicos se usan para combinar múltiples condiciones booleanas.\n&& (AND): Retorna true si ambos operandos son verdaderos.\njsx console.log(true && false); // false\n|| (OR): Retorna true si al menos uno de los operandos es verdadero.\njsx console.log(true || false); // true! (NOT): Invierte el valor booleano del operando.\njsx console.log(!true); // false")
                 break;
             case 3:
                alert("")
