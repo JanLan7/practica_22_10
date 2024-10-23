@@ -21,6 +21,12 @@ alert("Este es el contenido teorico de Javascript clase 2 😎");
                alert("Operadores de Comparación\nLos operadores de comparación evalúan dos valores y retornan un valor booleano (true o false) dependiendo de si la comparación es verdadera.");
                alert("== (Igual): Compara si dos valores son iguales, ignorando el tipo de dato.\njsx console.log(2 == '2'); // true\n=== (Estrictamente igual): Compara si dos valores son iguales y del mismo tipo.\njsx console.log(2 === '2'); // false\n!= (No igual): Compara si dos valores no son iguales, ignorando el tipo de dato.\njsx console.log(2 != '3'); // true\n!== (Estrictamente no igual): Compara si dos valores no son iguales o no son del mismo tipo.\njsx console.log(2 !== '2'); // true\n<, <=, >, >= (Menor que, Menor o igual que, Mayor que, Mayor o igual que): Utilizados para comparaciones numéricas.\njsx console.log(3 < 4); // true console.log(5 >= 5); // true")
                alert("Operadores Lógicos\nLos operadores lógicos se usan para combinar múltiples condiciones booleanas.\n&& (AND): Retorna true si ambos operandos son verdaderos.\njsx console.log(true && false); // false\n|| (OR): Retorna true si al menos uno de los operandos es verdadero.\njsx console.log(true || false); // true! (NOT): Invierte el valor booleano del operando.\njsx console.log(!true); // false")
+               alert("Ejemplos Prácticos\nVeamos cómo estos operadores pueden ser usados en situaciones comunes:")
+               alert("let edad = 20;\nlet acceso = (edad >= 18) && (edad <= 30);\nconsole.log(acceso); // true si la edad está entre 18 y 30")
+               alert("En el ejemplo anterior, el operador && se utiliza para asegurar que ambas condiciones sobre la variable edad sean verdaderas para permitir el acceso.")
+               alert("let temperatura = 35;\nlet advertencia = (temperatura < 0) || (temperatura > 32);\nconsole.log(advertencia); // true si la temperatura es menor que 0 o mayor que 32")
+               alert("")
+
                 break;
             case 3:
                alert("")
